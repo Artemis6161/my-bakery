@@ -56,10 +56,49 @@
     background-color: #fff;
     border-radius: 25px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.13) inset;
-    margin-left: 10px;
+    margin-left: 10rem;
   }
   .btn:hover {
     color: var(--orange);
     transition: 0.5s ease-in-out;
   }
+  .menu-icons{
+    display: none;
+  }
   
+  @media screen and (max-width: 480px) {
+    .navbar {
+position: relative;
+    }
+    
+    .menu-icons{
+      display: block;
+     margin-right:10px;
+      font-size: 1.9rem;
+      cursor: pointer;
+    }
+   
+    .topList{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 60vh;
+      position: absolute;
+      top: 50px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+    .topList.active{
+      background-color: #fff;
+  
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+     
+    }
+
+
+  }

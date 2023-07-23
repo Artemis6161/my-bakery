@@ -1,13 +1,44 @@
 import { useState } from "react";
 import "./navbar.css";
 
-export default function Box() {
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
+const Navbar = () =>  {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
   return (
     <div className="navbar">
-      <div className="nav-left">S'bakery</div>
+      <div className="nav-left">
+      <Link to="home" spy={true} smooth={true} offset={50} duration={500}> S'bakery</Link>
+      </div>
+
+      <div className="nav-center" onClick={closeMenu}>
+        <ul className={click ? 'topList active' : 'topList'}>
+
+        <li className="topListItem">
+          <Link to="menu" spy={true} smooth={true} offset={50} duration={500}> MENU</Link>
+          </li>
+          <li className="topListItem">
+
+          <Link to="about" spy={true} smooth={true} offset={50} duration={500}> ABOUT</Link>
+         </li>
+         
+          <li className="topListItem">
+
+          <Link to="gallery" spy={true} smooth={true} offset={50} duration={500}> GALLERY</Link>
+          </li>
+         
+          <li className="topListItem">
+
+          <Link to="sample" spy={true} smooth={true} offset={50} duration={500}> CONTACT</Link>
+          </li>
+          <button className="btn">
+          <Link to="sample2" spy={true} smooth={true} offset={50} duration={500}> SIGN UP</Link>
+          </button>
+        </ul>
+      </div>
       <div onClick={handleClick} className="menu-icons">
         {click ? (
           <i className="fas fa-times"></i>
@@ -15,17 +46,8 @@ export default function Box() {
           <i className="fas fa-bars"></i>
         )}
       </div>
-      <div className="nav-center" onClick={closeMenu}>
-        <ul className="topList">
-          <li className="topListItem">ABOUT</li>
-          <li className="topListItem">MENU</li>
-          <li className="topListItem">GALLERY</li>
-          <li className="topListItem">CONTACT</li>
-        </ul>
-      </div>
-      <div className="nav-right">
-        <button className="btn">SIGN UP</button>
-      </div>
+     
     </div>
   );
 }
+export default Navbar;
