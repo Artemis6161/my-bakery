@@ -1,0 +1,128 @@
+#home{
+padding-bottom: 5rem;
+display: grid;
+align-items: center;
+justify-content: center;
+grid-template-columns: repeat(2,1fr);
+
+
+}
+
+.i-left{
+
+   
+    padding-left: 15rem;
+    
+    
+}
+
+.i-left h1{
+   
+    font-size: 40px;
+}
+.i-left h2{
+ 
+    font-size: 35px;
+}
+.i-left :nth-child(3){
+    line-height: 2;
+ padding:4rem 0 3rem 0;
+    width: 60%;
+}
+
+  .leaf{
+    position: absolute;
+    left: 0;
+  }
+  .icons{
+    padding-right:5vw;
+  }
+
+
+/* right */
+.i-right{
+
+
+}
+ 
+
+
+   /* pepper */
+   .i-right :nth-child(1){
+    transform: scale(0.5);
+  
+   bottom: 20rem;
+left: 47rem;
+   z-index: 1;
+   width: 570px;
+   height: 449px;
+ 
+    position: absolute;
+   }
+   /* circle */
+   .i-right :nth-child(2){
+    width: 499px;
+    height: 499px;
+    border-radius: 50%;
+    border: 10px solid rgb(238, 238, 241);
+    position: absolute;
+    top: 6rem;
+    left:45rem
+   }
+/* pizza */
+
+.i-right :nth-child(3){
+    width: 440px;
+    height: 440px;
+    transform: rotate(-61deg);
+    position: relative;
+   z-index: 1;
+   top: 2rem;
+   left:0.5rem;
+   
+   }
+   .i-right :nth-child(4){
+    position: relative;
+    /* left:10rem; */
+    transform: scale(0.8);
+    top: 8rem;
+    right:27rem;
+   }
+   .i-right :nth-child(5){
+    position: relative;
+    right:41rem;
+   }
+   .i-right :nth-child(6){
+    position: relative;
+    left:6rem;
+    top:2rem;
+   }
+   .i-right :nth-child(7){
+    position: relative;
+    left:13rem;
+    bottom: 5rem;
+   }
+ 
+ 
+   @media screen and (max-width: 480px) {
+    .i-left h1{
+    
+        font-size: 20px;
+    }
+    .i-left h2{
+       
+        font-size: 15px;
+    }
+    .i-left :nth-child(3){
+        line-height: .5;
+     padding:4rem 0 3rem 0;
+        width: 5%;
+    }
+   
+    .i-right{
+    display: none;
+}
+
+
+
+   }

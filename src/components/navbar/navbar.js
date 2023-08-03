@@ -34,7 +34,7 @@ const Navbar = () =>  {
 
           <Link to="sample" spy={true} smooth={true} offset={50} duration={500}> CONTACT</Link>
           </li>
-          <button className="btn">
+          <button className="btn one">
           <Link to="sample2" spy={true} smooth={true} offset={50} duration={500}> SIGN UP</Link>
           </button>
         </ul>

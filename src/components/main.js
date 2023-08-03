@@ -6,16 +6,19 @@ import Navbar from './navbar/navbar'
 import Contact from './contact/conatct'
 import Signup from './signup/signup'
 import Home from "./home/home"
+import Dummy from "./dummy/dummy.js"
 const main = () => {
   return (
-    <div>
+    <div className='main'>
     <Navbar/>
-    <Home/>
-      <Menu/>
+  <Dummy/>
+    {/* <Home/> */}
+      {/* <Menu/>
+    
       <About/>
       <Gallery />
       <Contact />
-      <Signup/>
+      <Signup/> */}
     </div>
   )
 }
