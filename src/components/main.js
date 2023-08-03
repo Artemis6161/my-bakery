@@ -6,12 +6,12 @@ import Navbar from './navbar/navbar'
 import Contact from './contact/conatct'
 import Signup from './signup/signup'
 import Home from "./home/home"
-import Dummy from "./dummy/dummy.js"
+import Intro from "./intro/intro.js"
 const main = () => {
   return (
     <div className='main'>
     <Navbar/>
-  <Dummy/>
+  <Intro/>
     {/* <Home/> */}
       {/* <Menu/>
     
