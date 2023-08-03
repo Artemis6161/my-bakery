@@ -25,18 +25,23 @@ const dummy = () => {
           <i class="fa-regular fa-message icons"></i> ABOUT US</Link>
           </button>
       </div>
-      <div className="right">
-      {/* <img src={pepper} alt="" className='pepper'/> */}
-  
-  {/* <span>
-  
-  </span> */}
 
+      <div className="right">
+     
+    
+    <span>
+  
+  </span>
+   <img src={pepper} alt="" className='pepper'/>
   <img src={img} alt="" className='pizza'/>
-  {/* <img src={leaf2} alt="" />
+   
+ 
+  
+
+  <img src={leaf2} alt="" />
 <img src={one} alt="" />
 <img src={two} alt="" />
-<img src={three} alt="" /> */}
+<img src={three} alt="" />
       </div>
     </div>
     

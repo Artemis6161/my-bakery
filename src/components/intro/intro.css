@@ -42,10 +42,57 @@ width: 45%;
 
 .pizza{
     height: 100%;
-    width: 499px;
-    /* transform: scale(0.6); */
+    width: 477px;
+    transform: rotate(-61deg);
+    position: relative;
+    z-index: 1;
+  bottom:1vw;
+    right:6vw;
    
 }
+.right :nth-child(1){
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border: 10px solid rgb(238, 238, 241);
+    position: absolute;
+    top: .5vw;
+   right: 18vw;
+   }
+   .right :nth-child(2){
+    transform: scale(0.4);
+  
+   bottom: 21vw;
+left: 50vw;
+   z-index: 1;
+   width: 570px;
+   height: 449px;
+ 
+    position: absolute;
+   }
+   .right :nth-child(4){
+    position: relative;
+
+    transform: scale(0.8);
+    top: 6vw;
+    right:37vw;
+   }
+   .right :nth-child(5){
+    position: relative;
+    right:13vw;
+    bottom:10vw;
+   }
+   .right :nth-child(6){
+    position: relative;
+    right:7vw;
+   bottom: 1vw;
+   }
+   .right :nth-child(7){
+    position: relative;
+    left:1.5vw;
+    bottom: 9vw;
+   }
+
 @media screen and (max-width:600px) {
     .continer{
         height: calc(100% - 60px);
@@ -80,9 +127,57 @@ width: 45%;
     }
     .pizza{
         height: 100%;
-        width: 250px;
-        margin-left: 13vw;
-        /* transform: scale(0.6); */
-       
+        width: 150px;
+        margin-left: 39vw;
+        margin-top: 1vw;
+     
+      
     }
+    .right :nth-child(1){
+        width: 200px;
+        height: 200px;
+    margin-top: 80vw;
+    margin-right: 7vw;
+     
+       }
+       .right :nth-child(2){
+        /* transform: scale(0.2); */
+        /* top: 29vw;
+       left: 30vw;
+       position: absolute; */
+     
+       display: none;
+       }
+       .right :nth-child(4){
+       
+        /* position: relative;
+
+    transform: scale(0.2);
+    bottom: 30vw;
+    left:4vw; */
+    display: none;
+        
+       
+       }
+       .right :nth-child(5){
+        transform: scale(0.4);
+     
+        position: relative;
+
+        bottom: 27vw;
+        left:4vw;
+       }
+       .right :nth-child(6){
+        transform: scale(0.4);
+        position: relative;
+        right:11vw;
+       bottom: 9vw;
+       }
+       .right :nth-child(7){
+        transform: scale(0.4);
+        position: relative;
+        left:55vw;
+        bottom: 66vw;
+        
+       }
 }
