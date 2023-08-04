@@ -16,6 +16,7 @@ const dummy = () => {
       <h1 >It's not just a Food</h1>
 <h2>It's a Expirence!</h2>
 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsa, natus ea perspiciatis alias, reiciendis illo! Sunt vero blanditiis excepturi sed dignissimos dicta. </p>
+
 <button className="btn two">
           <Link to="menu" spy={true} smooth={true} offset={50} duration={500}>
           <i class="fa-solid fa-utensils icons"></i>OUR MENU</Link>
@@ -24,6 +25,7 @@ const dummy = () => {
           <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
           <i class="fa-regular fa-message icons"></i> ABOUT US</Link>
           </button>
+          {/* <img src={leaf} alt="" className='leaf'/> */}
       </div>
 
       <div className="right">

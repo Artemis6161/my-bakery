@@ -13,9 +13,9 @@ const main = () => {
     <Navbar/>
   <Intro/>
     {/* <Home/> */}
-      {/* <Menu/>
+      <Menu/>
     
-      <About/>
+      {/* <About/>
       <Gallery />
       <Contact />
       <Signup/> */}
