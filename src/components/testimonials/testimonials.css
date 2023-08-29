@@ -1,0 +1,49 @@
+#testimonials{
+    width: 100%;
+ height:calc(100% - 100px);
+    background-color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+
+}
+.img-test{
+    height:90px;
+    width:90px;
+border-radius: 50%;
+position: absolute;
+margin-left: 4vw;
+
+}
+.card-row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    padding:3vw 2vw;
+    
+}
+.section{
+    
+    width:300px;
+    height:19vw;
+    border-radius: 15%;
+}
+.section h2{
+    line-height: 1.5;
+}
+.section p{
+line-height: 1.5;
+}
+.stars{
+    margin-left: 5vw;
+  
+    padding-bottom: 30px;
+}
+.bt{
+    display: flex;
+    flex-direction: column;
+}

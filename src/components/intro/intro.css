@@ -1,6 +1,6 @@
 .continer{
     width: 100%;
- 
+ background-color: #fff;
     height:calc(100% - 100px);
    display: flex;
    position: relative;
@@ -32,10 +32,7 @@ padding:5vw 10vw;
 .icons{
     padding-right:.5vw;
   }
-   .leaf{
-     /* position: relative; */
-     /* right: 0; */
-    }
+   
 
 .right{
 height: 100%;
@@ -114,21 +111,21 @@ left: 50vw;
         padding: 5vh 9vw;
     }
     .left h1{
-        font-size: 9vw;
-        line-height: 11vw;
-    }
-    .left h2{
         font-size: 8vw;
         line-height: 11vw;
     }
+    .left h2{
+        font-size: 7vw;
+        line-height: 11vw;
+    }
     .left p{
-        font-size: 4vw;
+        font-size: 3vw;
         line-height: 90%;
         margin-top: 5vw;
         margin-bottom: 8vw;
     }
     .left button{
-        font-size: 3vw;
+        font-size: 2vw;
      
     }
    
