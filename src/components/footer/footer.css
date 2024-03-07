@@ -1,0 +1,103 @@
+/* 
+.footer_container {
+background-color: #fff;
+    }
+.footer_container p{
+width: 15%;
+text-align: center;
+}
+.footer_container h1{
+    width: 15%;
+    text-align: center;
+    }
+    .footer_icons {
+padding: 2vw;
+    }
+    .footer_icons .icons{
+        
+        background-color: #fff;
+        border-radius: 50%;
+        padding: .8vw;
+        margin: .5vw;
+        box-shadow: 10px 5px 5px rgb(180, 179, 179);
+            }
+            .footer_one{
+                display: flex;
+                flex-direction: column;
+            } */
+
+            .footer{
+                padding: 4rem 6rem;
+              
+               background-color: #fff;
+            }
+            .tops{
+                display: flex;
+                flex-direction: column; 
+            }
+            .tops .footer_icons{
+                display: flex;
+                flex-direction: row;  
+                padding: .5vw;
+            }
+          
+            .tops h1,p{
+               padding: .5vw;
+            }
+                    .footer_icons .icons{
+                       
+                        background-color: #fff;
+                        border-radius: 50%;
+                        padding: .8vw;
+                        margin: .5vw;
+                        box-shadow: 10px 5px 5px rgb(180, 179, 179);
+                            }
+            .bottom{
+                padding-top: 2rem;
+                text-align: start;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            }
+            .bottom div{
+                display: flex;
+              flex-direction: column;
+            }
+            .bottom h4{
+                font-size: 1.3rem;
+                padding: 1rem 0 0.8rem 0;
+            }
+            
+            .bottom a{
+                text-decoration: none;
+                color: #000;
+             
+                padding-bottom: .4rem;
+                font-size: 1.1rem;
+            
+            }
+            .Copyright{
+                border-top: 1px solid #888;
+              
+                
+            }
+            
+            @media screen and (max-width: 600px){
+                .footer{
+                    padding: 4rem 2rem;
+                }
+                .footer i {
+                    margin: 1rem 1rem 0 0;
+                }
+                .bottom div{
+                    width:50%;
+                }
+                
+                .footer_icons .icons{
+                       
+                
+                    padding: 1.5vw;
+                    margin: .5vw;
+                   
+                        }
+            }

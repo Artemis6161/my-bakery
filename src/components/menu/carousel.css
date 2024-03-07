@@ -7,9 +7,9 @@
 }
 
 .image-bg{
-    width:93rem;
+    width:95rem;
     height: 800px;
-    margin-left: 1vw;
+    
     background-size: cover;
     background-repeat: no-repeat;
        background-image: url("../assets/bg.png");
@@ -23,10 +23,10 @@
     justify-content: center;
     align-items: center;
    
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: 0.5s;
     position: absolute;
-    /* top: 20vw; */
+   
 left:4vw;
 
 }
@@ -39,15 +39,7 @@ left:4vw;
 
     transform: scale(0.6);
 }
-/* .bg{
-    width: 100%;
-    position: absolute;
-    
-} */
-/* .rec{
-    height:45vw;
-    position: absolute;
-} */
+
 .carasol-continer{
     height:24vw;
    width: 250px;
@@ -69,28 +61,27 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 
     .image-bg{
-        transform: scale(0.3);
-        position: relative;
-        right: 119vw;
-        /* padding-right: 50vw; */
-      display: none;
+        transform: scale(0.4);
+        /* position: relative; */
+
+ left:-85vw;
+ 
       
     }
+.carousel{
 
-
-    .carousel{
-  
-        /* transform: scale(0.5); */
-        position: relative;
-        right: 35px;
-        bottom:130vw;
-        display: none;
+   transform: scale(0.4);
+   /* position: relative;
+   bottom:650px;
+   left: 1vw; */
+   position: absolute;
+   left: -70vw;
+   margin-top: 10px;
+   /* top: 100vw; */
+}
+    .carousel img{
+        transform: scale(0.7);
+      
+      
     }
-
-
-
-
-
-
-
 }

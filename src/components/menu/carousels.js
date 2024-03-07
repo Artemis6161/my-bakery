@@ -14,7 +14,7 @@ const carousels = () => {
     <div className='carousel-sticky'>
 <div className='image-bg'>
      
-       </div>
+     </div>
        {/* <div className="carasol-continer">
        <article>
         <h3>Tast It!</h3>
@@ -24,15 +24,15 @@ const carousels = () => {
           "Food is symbolic of love when words are inadequate"
         </article>
        </div> */}
-     <div className='carousel'>
+       <div className='carousel'>
       
-       <img src={slide_image_2} alt="slide_image" />
-       <img src={slide_image_3} alt="slide_image" />
-       <img src={slide_image_4} alt="slide_image" />
-       <img src={slide_image_5} alt="slide_image" />
-       <img src={slide_image_6} alt="slide_image" />
+      <img src={slide_image_2} alt="slide_image" />
+      <img src={slide_image_3} alt="slide_image" />
+      <img src={slide_image_4} alt="slide_image" />
+      <img src={slide_image_5} alt="slide_image" />
+      <img src={slide_image_6} alt="slide_image" />
 
-       </div>
+      </div>
       
       
     </div>

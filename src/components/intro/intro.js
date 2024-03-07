@@ -14,7 +14,7 @@ const dummy = () => {
     <div className='continer'>
       <div className="left">
       <h1 >It's not just a Food</h1>
-<h2>It's a Expirence!</h2>
+<h2>It's a Experince!</h2>
 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsa, natus ea perspiciatis alias, reiciendis illo! Sunt vero blanditiis excepturi sed dignissimos dicta. </p>
 
 <button className="btn two">

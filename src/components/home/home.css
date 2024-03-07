@@ -10,7 +10,7 @@ grid-template-columns: repeat(2,1fr);
 
 .i-left{
 
-   
+ 
     padding-left: 15rem;
     
     
@@ -39,12 +39,7 @@ grid-template-columns: repeat(2,1fr);
   }
 
 
-/* right */
-.i-right{
 
-
-}
- 
 
 
    /* pepper */

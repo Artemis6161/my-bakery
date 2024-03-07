@@ -32,7 +32,7 @@ const Navbar = () =>  {
          
           <li className="topListItem">
 
-          <Link to="sample" spy={true} smooth={true} offset={50} duration={500}> CONTACT</Link>
+          <Link to="address" spy={true} smooth={true} offset={50} duration={500}> CONTACT</Link>
           </li>
           <button className="btn one">
           <Link to="sample2" spy={true} smooth={true} offset={50} duration={500}> SIGN UP</Link>

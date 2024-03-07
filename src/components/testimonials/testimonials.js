@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./testimonials.css"
 import imgOne from "../assets/ivana.jpg"
 import imgTwo from "../assets/aiony.jpg"
 const testimonials = () => {
-    const [index, setIndex] = useState(0);
+    
   return (
     <div id="testimonials">
       <div className="container">
@@ -16,7 +16,7 @@ const testimonials = () => {
         <div className="card-row">
         <div className="card-section" >
 <div >
-    <img src={imgOne} alt=""className="img-test" />
+    <img src={imgOne} alt="" className="img-test" />
     
 
  </div>
@@ -59,16 +59,7 @@ Rajasekhar </h2>
 <p>Its a good place for a budget foodie, things are good, i l9ve brownies with ice cream, and those hot chicken burger r ma choice here..</p>
             </div>
             </div>
-            <div className="card-section">
-            <div >
-    <img src={imgOne} alt=""className="img-test" />
-</div>
-            <div className='section card-item'>
-            <div className='stars'> ⭐⭐⭐⭐⭐ </div>
-             <h2>Jeevitha</h2>
-<p>My favorite place. It has fresh cakes with catalog which design u want to put on your cake. I like La Bakery very much amazing decorations.</p>
-            </div>
-            </div>
+           
            
         </div>
       

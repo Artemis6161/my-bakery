@@ -75,14 +75,14 @@ const Menu = () => {
 
           </div>
          
-<div className="m-bottom">
+        
 
 <Carousels/>
 
 
 
 
-          </div>
+         
     </div>
   )
 }

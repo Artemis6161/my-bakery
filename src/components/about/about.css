@@ -57,7 +57,18 @@ width: 50%;
     }
 
     @media screen and (max-width:600px) {
-      
+        #about{
+         
+             margin:20vw 0 10rem 0;
+            
+            
+            
+            
+            
+          
+            
+            
+        }
         .about-as h1{
             font-size: 5vw;
             line-height: 11vw;

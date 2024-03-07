@@ -72,31 +72,29 @@ left: 50vw;
     position: absolute;
    }
    .right :nth-child(4){
-    position: relative;
-
+    
+position: absolute;
     transform: scale(0.8);
-    top: 6vw;
-    right:37vw;
+    top: 29vw;
+    right:45vw;
    }
    .right :nth-child(5){
-    position: relative;
-    right:13vw;
-    bottom:10vw;
+    
+    position: absolute;
+    right:48vw;
+    bottom:2vw;
    }
    .right :nth-child(6){
-    /* position: relative;
-    right:7vw;
-   bottom: 1vw; */
+  
    position: absolute;
-   bottom:1vw;
+   top:31vw;
    right:33vw;
    }
    .right :nth-child(7){
     position: absolute;
-    /* left:1.5vw;
-    bottom: 9vw; */
+    top:23vw;
     left:74vw;
-    bottom: 9vw;
+  
 
    }
 
@@ -136,63 +134,46 @@ left: 50vw;
     .pizza{
         height: 100%;
         width: 150px;
-        margin-left: 26vw;
-        margin-top: 2vw;
+        margin-left: 38vw;
+        margin-top: 18vw;
      
       
     }
     .right :nth-child(1){
-        width: 190px;
-        height: 190px;
+        width: 199px;
+        height: 199px;
     margin-top: 80vw;
     margin-right: 20vw;
-     /* display:none; */
+     
        }
        .right :nth-child(2){
-        /* transform: scale(0.2); */
-        /* top: 29vw;
-       left: 30vw;
-       position: absolute; */
+       
      
        display: none;
        }
        .right :nth-child(4){
        
-        /* position: relative;
-
-    transform: scale(0.2);
-    bottom: 30vw;
-    left:4vw; */
+       
     display: none;
         
        
        }
        .right :nth-child(5){
         transform: scale(0.4);
-    
-        position: relative;
-
-        bottom: 27vw;
-        right:6vw;
-        /* display: none; */
+    left:12vw;
+    bottom: -5vw;
+        
        }
        .right :nth-child(6){
         transform: scale(0.4);
-        /* position: relative;
-        right:25vw;
-       bottom: 9vw; */
-       /* display: none; */
-       position: absolute;
-       left:14vw;
-       bottom: 10vw;
+        position: absolute;
+        bottom: -10vw;
+        left:19vw;
+       
        }
        .right :nth-child(7){
         transform: scale(0.4);
-        position: absolute;
-        /* left:40vw;
-        bottom: 66vw; */
-        left:40vw;
-        bottom:25vw;
-        /* display: none; */
+        left:49vw;
+        bottom: -2vw;
        }
 }

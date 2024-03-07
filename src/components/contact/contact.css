@@ -1,6 +1,140 @@
-#contact{
+#gallery{
     width: 100%;
-    height:500px;
-    background-color: #cf14b9;
-    
+   
+    background-color: #fff;
+   
+}
+.container-one{
+    padding-bottom: 4vw;
+}
+
+.container-one h3{
+    text-align: center;
+}
+
+.container-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.container-contact h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 2vw;
+  
+}
+
+.contact-image{
+   width:500px;
+    height:300px;
+   
+ }
+
+.contact-wrapper{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+ padding:0 10vw;
+  
+}
+.contact_input{
+line-height: 2;
+   text-align: center;
+   background-image: url("../../components/assets/image\ 45.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 300px;
+  
+  /* height: 20vw; */
+  
+}
+.contact_input h1{
+    padding: 2vw;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+}
+.contact_input p{
+
+    color: #fff;
+}
+.input-container {
+    position: relative;
+    display: inline-block;
+
+   
+  }
+  
+  input[type="text"] {
+
+    border-radius: 55px;
+    border-color:#565252;
+    width: 50vw;
+    height: 3vw;
+  }
+ 
+  
+  button[type="submit"] {
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+   margin:.5vw;
+    background-color: var(--orange);
+    color: #fff;
+    width: 86px;
+  height: 2vw;
+
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  }
+
+  .input::placeholder{
+    padding: 2vw;
+  }
+
+@media screen and (max-width:600px) {
+
+    .container-contact p{
+        width: 35%;
+    }
+    .contact-image{
+        width:200px;
+         height:150px;
+       
+     
+     }
+     .contact-wrapper p{
+        width: 15%;
+    }
+ 
+.contact-wrapper p{
+  width: 100%;
+   font-weight: 500;
+    font-size: 10px;
+}
+.contact-wrapper h1{
+    font-size: 10px;
+ }
+ input[type="text"] {
+
+
+    width: 70vw;
+    height: 7vw;
+  }
+ button[type="submit"]{
+    width: 60px;
+    height: 5vw;
+    margin:.9vw;
+  
+ }
+ .contact_input{
+   
+   
+   
+      height: 250px;
+      
+    }
 }

@@ -10,6 +10,13 @@
    
 
 }
+.container h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 2vw;
+    width: 35%;
+}
+
 .img-test{
     height:90px;
     width:90px;
@@ -33,17 +40,47 @@ margin-left: 4vw;
     border-radius: 15%;
 }
 .section h2{
+   
     line-height: 1.5;
 }
 .section p{
 line-height: 1.5;
 }
 .stars{
-    margin-left: 5vw;
+    margin-left: 9vw;
   
     padding-bottom: 30px;
 }
 .bt{
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width:600px) {
+
+    .section{
+    
+        width:200px;
+        height:40vw;
+       
+    }
+
+    .stars{
+        margin-left: 15vw;
+      
+        padding-bottom: 30px;
+    }
+    .img-test{
+        height:80px;
+        width:80px;
+    
+    position: absolute;
+  margin-top: 20px;
+    
+    }
+    .container h1{
+        font-size: 30px;
+    padding-bottom:2vw ;
+    width: 55%;
+    }
 }

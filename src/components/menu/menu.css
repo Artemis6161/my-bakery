@@ -1,7 +1,5 @@
 #menu{
-    width: 100%;
- 
-    height:calc(100% - 100px);
+
 
  background-color: #fff;
 
@@ -89,12 +87,15 @@
 
 
 @media screen and (max-width:600px) {
+    .card{
+        padding: 2vw;
+    }
     .title{
         margin:30vw 0 2rem 0;
     }
     .top-bar{
         transform: scale(0.5);
-        padding: 0 2vw;
+        padding: 0 5vw;
         height:4rem;
     }
     .top-bar span{
@@ -106,12 +107,14 @@
   
  #menu h1{
     font-size: 30px;
+    padding-bottom:2vw ;
   }
 
   
     .card-container img{
-    align-items: center;
-    margin: -12vw 6vw;
+  
+    
+    margin: -7vw 5vw;
     transform: scale(0.5);
     
   }
@@ -121,11 +124,11 @@
 
   .card-item{
     height:20vw;
-   
+   padding-top: 5vw;
     margin-top: 10vw;
 font-size: 12px;
 
   }
- 
+
 
 }

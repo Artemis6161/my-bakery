@@ -1,0 +1,15 @@
+.patners{
+    background-color: #fff;
+      text-align: center;
+      padding: 2vw;
+}
+
+.partners_continer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+padding: 1vw;
+}
+.partners_continer img{
+    padding: 2vw;
+}
