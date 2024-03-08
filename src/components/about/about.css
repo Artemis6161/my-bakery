@@ -40,10 +40,7 @@ width: 50%;
    width:45vw;
    height: 50vw;
 }
-.about-as h1{
-    padding: 2vw;
-   
-        }
+
 .about-as p{
     font-size: 1.2vw;
     font-weight: 300;
@@ -61,18 +58,8 @@ width: 50%;
          
              margin:20vw 0 10rem 0;
             
-            
-            
-            
-            
-          
-            
-            
-        }
-        .about-as h1{
-            font-size: 5vw;
-            line-height: 11vw;
-        }
+            }
+       
 .about-as p{
     padding: 1rem;
     font-size: 3vw;

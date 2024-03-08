@@ -9,7 +9,7 @@ const about = () => {
     <div className="top-about">
        <button className="btn one title">
      <i class="fa-solid fa-utensils icons"></i>
-         Our Menu
+         ABOUT
           </button>
           </div>
     

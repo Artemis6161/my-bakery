@@ -7,7 +7,7 @@ import image4 from '../assets/pizza.png'
 import pizza1 from '../assets/pizza 1 menu.png'
 import pasta from '../assets/pasta-menu.png'
 import fruity from '../assets/Fruity-Chocolate-Cake-menu.png'
-import Carousels from "./carousels"
+
 
 
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
@@ -77,7 +77,7 @@ const Menu = () => {
          
         
 
-<Carousels/>
+
 
 
 

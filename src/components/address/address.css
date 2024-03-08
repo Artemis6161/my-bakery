@@ -1,19 +1,17 @@
 .address{
     background-color: #f6f3f3;
-    /* text-align: center; */
-    width: 100%;
+   
+  
 }
-.address h1{
-padding: 5vw;
-    text-align: center;
- 
+h1{
+  text-align: center;
 }
 .address_wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2vw;
-    /* text-align: center; */
+   
     
 }
 .address_container {

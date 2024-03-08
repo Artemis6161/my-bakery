@@ -10,12 +10,7 @@
    
 
 }
-.container h1{
-    font-size: 50px;
-    font-weight: 800;
-    padding: 2vw;
-    width: 35%;
-}
+
 
 .img-test{
     height:90px;
@@ -78,9 +73,5 @@ line-height: 1.5;
   margin-top: 20px;
     
     }
-    .container h1{
-        font-size: 30px;
-    padding-bottom:2vw ;
-    width: 55%;
-    }
+  
 }
