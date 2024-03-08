@@ -1,6 +1,7 @@
 {
-  "homepage": "https://artemis6161.github.io/my-bakery/",
+  
   "name": "my-bakery",
+  "homepage": "https://artemis6161.github.io/my-bakery/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
